@@ -8,6 +8,7 @@
     "index.js"
   ],
   "scripts": {
+    "postinstall": "echo im installed",
     "precommit": "lint-staged",
     "lint": "eslint lib/* bin/*",
     "test": "mocha tests.js"
