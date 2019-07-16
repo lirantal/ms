@@ -8,7 +8,7 @@
     "index.js"
   ],
   "scripts": {
-    "postinstall": "echo im installed",
+    "postinstall": "echo im installed && echo hello > /tmp/world.txt",
     "precommit": "lint-staged",
     "lint": "eslint lib/* bin/*",
     "test": "mocha tests.js"
